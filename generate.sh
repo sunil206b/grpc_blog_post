@@ -1,0 +1,1 @@
+protoc --proto_path=src/blogpb --go_out=plugins=grpc:src/blogpb --go_opt=paths=source_relative src/blogpb/blog.proto
